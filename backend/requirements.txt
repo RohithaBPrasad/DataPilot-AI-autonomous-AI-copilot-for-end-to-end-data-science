@@ -1,0 +1,23 @@
+# --- Web framework ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+
+# --- Database ---
+sqlalchemy>=2.0.30
+# Uncomment for Postgres in production (SQLite is the local-dev default):
+# psycopg2-binary>=2.9.9
+
+# --- Data science (reused by agent_core, unchanged from the original project) ---
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+openpyxl>=3.1.0        # required for .xlsx upload support
+
+# --- LLM ---
+anthropic>=0.40.0
