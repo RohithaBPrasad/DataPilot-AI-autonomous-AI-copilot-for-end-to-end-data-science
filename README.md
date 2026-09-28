@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 DataPilot-AI-autonomous-AI-copilot-for-end-to-end-data-science
+# 🤖 DataPilot-AI Autonomous AI copilot for end to end Datascience
 
 ### Upload a dataset. Say what you want to know. Get a full data-science workflow — explained in plain English.
 
